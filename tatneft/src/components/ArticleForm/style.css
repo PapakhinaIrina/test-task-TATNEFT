@@ -1,0 +1,87 @@
+
+.articleFormWrapper{
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+}
+
+.articleFormContainer{
+  align-items: center;
+  border-radius: 10px;
+  border: solid 1px black;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  justify-content: center;
+  padding: 8px;
+  width: 400px;
+}
+
+.articleFormTitleContainer{
+  align-items: center;
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  width: 100%;
+}
+
+.articleFormTitle{
+  height: 30px;
+  margin-bottom: 10px;
+  padding-left: 8px;
+  width: 90%;
+}
+
+.articleFormBodyContainer{
+  align-items: center;
+  display: flex;
+  height: 150px;
+  justify-content: center;
+  width: 100%;
+}
+
+.articleFormBody{
+  height: 100%;
+  margin-bottom: 10px;
+  width: 90%;
+  padding-left: 8px;
+}
+
+.articleFormThemeContainer{
+  align-items: center;
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  width: 100%;
+}
+
+.articleFormTheme{
+  height: 30px;
+  padding-left: 8px;
+  width: 90%;
+}
+
+.articleFormButtons{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-bottom: 0;
+  margin-top: 15px;
+  margin-right: 32px;
+  height: 30px;
+  width: 100%;
+}
+
+.buttonAdd{
+  align-items: center;
+  display: flex;
+  margin-right: 6px;
+}
+
+.buttonCancel{
+  align-items: center;
+  display: flex;
+}
