@@ -1,10 +1,12 @@
-import ArticleForm from './components/ArticleForm/ArticleForm';
+import ArticleList from './components/ArticleList/ArticleList';
 import './App.css';
+
+
 
 function App() {
   return (
     <div className="App">
-      <ArticleForm />
+      <ArticleList />
     </div>
   );
 }

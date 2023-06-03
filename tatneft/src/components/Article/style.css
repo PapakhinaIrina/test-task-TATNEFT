@@ -1,7 +1,9 @@
+h1,h2,h3,h4,h5,h6{
+  font-family: cursive;
+}
+
 .articleWrapper {
-  background-color: rgba(196, 221, 221, 0.228);
-  border: solid 1px black;
-  border-radius: 10px;
+  background: radial-gradient(circle,rgba(180,182,218,.9) 0,rgba(226,236,253,.9) 100%);  border: solid 1px black;
   display: flex;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   justify-content: center;
@@ -11,18 +13,43 @@
 }
 
 .articleContainer{
+  display: flex;
+  flex-direction: column;
   height: 100%;
   width: 100%;
 }
 
 .articleTitle {
+  align-items: center;
+  background-color: #e1ebfd;
+  border-radius: 8px;
+  border: none;
+  color: #271c6c;
+  display: flex;
+  justify-content: center;
   height: 50px;
   width: 100%;
 }
 
 .articleBody{
-  height: 220px;
+  align-items: center;
+  background-color: #e1ebfd;
+  border-radius: 8px;
+  border: none;
+  height: 200px;
+  padding-left: 5px;
   width: 100%;
+}
+
+.articleTheme{
+  align-items: center;
+  background-color: #e1ebfd;
+  border-radius: 8px;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 5px;
 }
 
 .articleFooter{
@@ -34,21 +61,26 @@
 
 .articleEdit{
   align-items: center;
-  border: solid 1px black;
+  background-color: #271c6c;
+  border: 2px solid #e1ebfd;
   border-radius: 20px;
+  box-shadow: 2px 4px 10px #271c6c;
+  color: #e1ebfd;
   cursor: pointer;
   display: flex;
-  height: 8px;
   justify-content: center;
-  margin-right: 6px;
+  height: 8px;
   padding: 6px;
   width: 24px;
 }
 
 .articleDelete{
   align-items: center;
-  border: solid 1px black;
+  background-color: #271c6c;
+  border: 2px solid #e1ebfd;
   border-radius: 20px;
+  box-shadow: 2px 4px 10px #271c6c;
+  color: #e1ebfd;
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -56,3 +88,6 @@
   padding: 6px;
   width: 24px;
 }
+
+
+
